@@ -30,8 +30,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="bg-gray-200 w-full">
-        <main className="px-3 max-w-[1104px] mx-auto w-full align-top text-left font-bold text-lg">
-          <div className="flex flex-start w-full">
+        <main className="px-3 max-w-[1104px] mx-auto w-full h-full align-top text-left font-bold text-lg">
+          <div className="flex flex-start w-full h-full">
             <Panels data={mockData.records} />
           </div>
         </main>

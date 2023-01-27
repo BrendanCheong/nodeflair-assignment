@@ -17,6 +17,7 @@ export interface JSONData {
     elapsed: string;
     field: string;
     skills: string[];
+    location: string;
     salary?: Salary;
 }
 

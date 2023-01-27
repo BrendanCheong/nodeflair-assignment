@@ -19,6 +19,7 @@ const mockData: MockData = {
                     elapsed: "1 minute ago",
                     field: "Data",
                     skills: ["Oracle", "HDFS", "Hive", "Spark", "Hadoop", "Python", "React.js"],
+                    location: "Singapore",
                     salary: {
                         start: 3000,
                         end: 5000,
@@ -33,6 +34,7 @@ const mockData: MockData = {
                     elapsed: "2 hours ago",
                     field: "Backend",
                     skills: ["Spring", "Java", "React.js"],
+                    location: "Singapore",
                 },
                 {
                     companyName: "Goldman Sachs",
@@ -43,6 +45,7 @@ const mockData: MockData = {
                     elapsed: "3 hours ago",
                     field: "Full Stack",
                     skills: ["Analytics", "UDB", "ORM", "Apache", "Overflowed", ".NET"],
+                    location: "China",
                     salary: {
                         start: 1000,
                         end: 1200
@@ -57,6 +60,7 @@ const mockData: MockData = {
                     elapsed: "1 minute ago",
                     field: "Data",
                     skills: ["Oracle", "HDFS", "Hive", "Spark", "Hadoop", "Python", "React.js"],
+                    location: "China",
                     salary: {
                         start: 3000,
                         end: 5000,
@@ -71,6 +75,7 @@ const mockData: MockData = {
                     elapsed: "2 hours ago",
                     field: "Backend",
                     skills: ["Spring", "Java", "React.js"],
+                    location: "China",
                 },
                 {
                     companyName: "Goldman Sachs",
@@ -81,6 +86,7 @@ const mockData: MockData = {
                     elapsed: "3 hours ago",
                     field: "Full Stack",
                     skills: ["Analytics", "UDB", "ORM", "Apache", "Overflowed", ".NET"],
+                    location: "China",
                     salary: {
                         start: 1000,
                         end: 1200
@@ -95,6 +101,7 @@ const mockData: MockData = {
                     elapsed: "1 minute ago",
                     field: "Data",
                     skills: ["Oracle", "HDFS", "Hive", "Spark", "Hadoop", "Python", "React.js"],
+                    location: "Singapore",
                     salary: {
                         start: 3000,
                         end: 5000,
@@ -109,6 +116,7 @@ const mockData: MockData = {
                     elapsed: "2 hours ago",
                     field: "Backend",
                     skills: ["Spring", "Java", "React.js"],
+                    location: "Singapore",
                 },
                 {
                     companyName: "Goldman Sachs",
@@ -119,6 +127,7 @@ const mockData: MockData = {
                     elapsed: "3 hours ago",
                     field: "Full Stack",
                     skills: ["Analytics", "UDB", "ORM", "Apache", "Overflowed", ".NET"],
+                    location: "Vietnam",
                     salary: {
                         start: 1000,
                         end: 1200
@@ -133,6 +142,7 @@ const mockData: MockData = {
                     elapsed: "1 minute ago",
                     field: "Data",
                     skills: ["Oracle", "HDFS", "Hive", "Spark", "Hadoop", "Python", "React.js"],
+                    location: "Vietnam",
                     salary: {
                         start: 3000,
                         end: 5000,
@@ -152,6 +162,7 @@ const mockData: MockData = {
                     elapsed: "3 hours ago",
                     field: "Full Stack",
                     skills: ["Analytics", "UDB", "ORM", "Apache", "Overflowed", ".NET"],
+                    location: "Vietnam",
                     salary: {
                         start: 1000,
                         end: 1200
@@ -166,6 +177,7 @@ const mockData: MockData = {
                     elapsed: "1 minute ago",
                     field: "Data",
                     skills: ["Oracle", "HDFS", "Hive", "Spark", "Hadoop", "Python", "React.js"],
+                    location: "Singapore",
                     salary: {
                         start: 3000,
                         end: 5000,
@@ -180,6 +192,7 @@ const mockData: MockData = {
                     elapsed: "2 hours ago",
                     field: "Backend",
                     skills: ["Spring", "Java", "React.js"],
+                    location: "Singapore",
                 },
                 {
                     companyName: "Goldman Sachs",
@@ -190,6 +203,7 @@ const mockData: MockData = {
                     elapsed: "3 hours ago",
                     field: "Full Stack",
                     skills: ["Analytics", "UDB", "ORM", "Apache", "Overflowed", ".NET"],
+                    location: "Singapore",
                     salary: {
                         start: 1000,
                         end: 1200
@@ -204,6 +218,7 @@ const mockData: MockData = {
                     elapsed: "1 minute ago",
                     field: "Data",
                     skills: ["Oracle", "HDFS", "Hive", "Spark", "Hadoop", "Python", "React.js"],
+                    location: "Singapore",
                     salary: {
                         start: 3000,
                         end: 5000,
@@ -211,7 +226,7 @@ const mockData: MockData = {
                 },
             ]
         }
-    ],
+    ]
 };
 
 export default mockData;

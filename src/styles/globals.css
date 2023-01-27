@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,8 +24,9 @@
         --green: 134deg, 61%, 41%;
         --teal: 162deg, 73%, 46%;
         --cyan: 188deg, 78%, 41%;
-        --white: #fff;
-        --gray: #6c757d;
+        --white: 0deg, 0%, 97%;
+        --gray: 208deg, 7%, 46%;
+        --light-gray: 220deg, 13%, 91%;
         --gray-dark: 210deg, 10%, 23%;
         --primary: 147deg, 73%, 45%;
         --secondary: #ffe03c;
@@ -43,22 +46,33 @@
     }
 
     body {
-        background-color: rgb(229 231 235);
+        background-color: hsl(var(--light-gray));
     }
 
     ::-webkit-scrollbar {
-        width: var(--size-1);
+        width: 3px;
     }
 
     ::-webkit-scrollbar-track {
-        background-color: rgb(229 231 235);
-        -webkit-border-radius: var(--size-1);
-        border-radius: var(--size-1);
+        background-color: hsl(var(--light-gray));
+        -webkit-border-radius: 0.375em;
+        border-radius: 0.375em;
+    }
+
+    #JobInformation::-webkit-scrollbar-track {
+        background-color: hsl(var(--light));
+        border-radius: 0.375em;
+    }
+
+    #JobInformation::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 0.375em;
+        border-radius: 0.375em;
+        background: hsl(var(--gray));
     }
 
     ::-webkit-scrollbar-thumb {
-        -webkit-border-radius: var(--size-1);
-        border-radius: var(--size-1);
-        background: rgb(var(--color-slate-700) / var(--bg-opacity));
+        -webkit-border-radius: 0.375em;
+        border-radius: 0.375em;
+        background: hsl(var(--gray-dark));
     }
 }
