@@ -6,8 +6,6 @@ import Link from "next/link";
 // components
 import Panels from "@components/Panels";
 
-// types
-import type { MockData } from "@interfaces/MockData";
 
 // data
 import mockData from "@data/mockData";
