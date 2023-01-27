@@ -5,7 +5,7 @@ This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3
 # Deployment:
 This is deployed on vercel, check it out!
 
-[Click me!]()
+[Click me!](https://nodeflair-assignment-eta.vercel.app/)
 
 # NodeFlair Assignment
 
