@@ -4,12 +4,17 @@ import { Fragment } from "react";
 // components
 import JobCard from "@components/jobs/cards/JobCard";
 import Navigation from "@components/jobs/Navigation";
+
+// types
 import { type JobListingsProps } from "@interfaces/jobs/layout/JobListings";
 
 const JobListings = ({
   data,
+  page,
+  maxPages,
   setActiveIndex,
-  activeIndex
+  setPage,
+  activeIndex,
 }: JobListingsProps): JSX.Element => {
 
   return (
@@ -27,7 +32,7 @@ const JobListings = ({
             activeIndex={activeIndex}
           />
         ))}
-        <Navigation />
+        <Navigation onSelect={setPage} currentPage={page} maxPages={maxPages}/>
       </div>
     </Fragment>
   );
